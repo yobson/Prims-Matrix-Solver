@@ -24,11 +24,13 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    void addToBuffer(int *output, int node, int position, int size);
-    void findSmallest(int *row, int *column, int *array, int noOfNodes);
-    void removeRow(int row, int *array);
+    void addToBuffer(float *output, int node, int position, int size);
+    void findSmallest(int *row, int *column, float *array, int noOfNodes);
+    void removeRow(int row, float *array);
     int numberOfNodes;
     int *colConverter;
+    float aggregateWeight;
+    float largest;
 };
 
 #endif // MAINWINDOW_H

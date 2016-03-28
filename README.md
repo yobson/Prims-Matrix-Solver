@@ -25,10 +25,9 @@ Press find MST
 it will give you the mst in the form a->b where a and b are connected nodes
 
 
-###What doesn't work yet
-It only works with whole numbers under 1000 so far. This is what I will change next.
+###notes
+any data over 1 billion will make it not work
+mainwondow.cpp is commented if you want to know how it works
 
-It only works for weighted graphs, not weighted digraphs. This feature is to come.
-
-It doesn't yet give you the total weight of the MST.
+Any question email me at jam.hobson@hotmail.co.uk
 
