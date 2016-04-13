@@ -22,6 +22,8 @@ private slots:
 
     void on_tableWidget_cellChanged(int row, int column);
 
+    void on_lineEdit_returnPressed();
+
 private:
     Ui::MainWindow *ui;
     void addToBuffer(float *output, int node, int position, int size);

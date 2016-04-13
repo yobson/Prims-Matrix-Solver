@@ -117,3 +117,8 @@ void MainWindow::removeRow(int row, float *array) {
         array[(i*numberOfNodes)+row] = largest; // removes the data in this row from the array
     }
 }
+
+void MainWindow::on_lineEdit_returnPressed()
+{
+    this->on_pushButton_clicked();
+}

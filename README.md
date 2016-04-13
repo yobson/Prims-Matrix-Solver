@@ -9,7 +9,7 @@ Open the app
 
 Input the number of nodes in your network
 
-Press the set Nodes button
+Press the set Nodes button or hit enter
 
 A table shall magically appear!
 
@@ -29,7 +29,7 @@ it will give you the mst in the form a->b where a and b are connected nodes
 any data over 1 billion will make it not work
 mainwondow.cpp is commented if you want to know how it works
 
-<<<<<<< HEAD
+
 Any question email me at jam.hobson@hotmail.co.uk
 
 
